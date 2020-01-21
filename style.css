@@ -15,7 +15,17 @@ header {
     height: 350px;
     top: 0px;
 }
-
+select::-ms-expand {
+    display: none;
+}
+.option1 select::after{
+    background-color:#00acc1;
+}
+select {
+    -webkit-appearance: none;
+    background: url('images/down-arrow-black.svg') no-repeat right;
+    background-size:10px;
+}
 #main h1 {
     position: absolute;
     top: 50%;
