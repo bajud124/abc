@@ -100,14 +100,17 @@
     flex-direction:column;
     justify-content:flex-end;
     margin-left:15px;
-    margin-top:13%;
+    margin-top:12.8%;
     color:#00acc1;
-    width:100%;
+    width:auto;
     padding:1px;
+}
+.abcd{
+    float:left
 }
 .btn-badge{
     margin-top:12%;
-    margin-right :-13px;
+    margin-right :-4px;
     padding-left:1%;
     padding-right:1%
 }
@@ -193,12 +196,12 @@ h3{
 .mob-head{
     color:#00acc1;
 }
-.edit-icon{
+/*.edit-icon{
     border:1px solid #00acc1;
     border-radius:3px;
     padding:5px;
     display:none;
-}
+}*/
 .mob-p{
     width:100%;
 }
@@ -233,13 +236,40 @@ footer {
         padding: 15px;
         color: white;
     }
-
+    .btn-edit{
+        height:25px;
+        width:25px;
+    }
 @media only screen and (min-width : 320px) and (max-width: 600px) {
     .mob-a{
         justify-content:space-between
     }
     .mob-a p{
         font-size:16px;
+    }
+    .edit-icon{
+        display:initial;
+        
+    }
+    .banner-search{
+        display:inline
+    }
+    .mob-a p{
+        font-size:14px;
+    }
+    .more-filter {
+        width: 100px;
+        float: right;
+        padding-top:5%;
+        padding-bottom:5%;
+        font-size: 16px;
+        font-size: 14px;
+    }
+    .more{
+        height:auto;
+        margin:auto;
+        width:110px;
+        margin-top:-5px;
     }
     footer {
         display: grid;
@@ -255,6 +285,9 @@ footer {
 
         footer a {
             font-size: 12px;
+        }
+        .more1{
+            display:none;
         }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
